@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.work_work.MenuController">
+    <CheckBox fx:id="dish1CheckBox" layoutX="10" layoutY="20" text="Блюдо 1" onAction="#handleOrder"/>
+    <Label fx:id="dish1PriceLabel" layoutX="150" layoutY="20" text="Цена: 10.0"/>
+    <Spinner fx:id="dish1Spinner" layoutX="250" layoutY="20"/>
+
+    <CheckBox fx:id="dish2CheckBox" layoutX="10" layoutY="60" text="Блюдо 2" onAction="#handleOrder"/>
+    <Label fx:id="dish2PriceLabel" layoutX="150" layoutY="60" text="Цена: 15.0"/>
+    <Spinner fx:id="dish2Spinner" layoutX="250" layoutY="60"/>
+
+    <Button layoutX="10" layoutY="100" text="Заказать" onAction="#handleOrder"/>
+    <Label fx:id="totalCostLabel" layoutX="10" layoutY="140" text="Чек будет здесь"/>
+</AnchorPane>

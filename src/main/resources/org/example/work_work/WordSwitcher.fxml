@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.work_work.WordSwitcherController">
+    <TextField fx:id="inputField" layoutX="10" layoutY="20" promptText="Введите текст"/>
+    <TextField fx:id="outputField" layoutX="10" layoutY="80" promptText="Результат" editable="false"/>
+    <Button fx:id="switchButton" layoutX="150" layoutY="50" text="→" onAction="#handleSwitch"/>
+</AnchorPane>

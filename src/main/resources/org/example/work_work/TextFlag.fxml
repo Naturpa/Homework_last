@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.work_work.TextFlagController">
+    <RadioButton fx:id="redRadioButton" layoutX="10" layoutY="20" text="Красный"/>
+    <RadioButton fx:id="greenRadioButton" layoutX="10" layoutY="50" text="Зелёный"/>
+    <RadioButton fx:id="blueRadioButton" layoutX="10" layoutY="80" text="Синий"/>
+    <RadioButton fx:id="whiteRadioButton" layoutX="150" layoutY="20" text="Белый"/>
+    <RadioButton fx:id="yellowRadioButton" layoutX="150" layoutY="50" text="Жёлтый"/>
+
+    <Button layoutX="10" layoutY="110" text="Нарисовать" onAction="#handleDraw"/>
+    <Label fx:id="outputLabel" layoutX="10" layoutY="150" text="Выберите цвета"/>
+</AnchorPane>

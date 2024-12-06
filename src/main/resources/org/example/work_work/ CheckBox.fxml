@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.work_work.CheckBoxController">
+    <CheckBox fx:id="toggleLabelCheckbox" layoutX="10" layoutY="20" text="Показать Label" onAction="#handleToggleLabel"/>
+    <Label fx:id="labelWidget" layoutX="10" layoutY="50" text="Это Label" visible="false"/>
+
+    <CheckBox fx:id="toggleTextFieldCheckbox" layoutX="10" layoutY="80" text="Показать TextField" onAction="#handleToggleTextField"/>
+    <TextField fx:id="textFieldWidget" layoutX="10" layoutY="110" promptText="Введите текст" visible="false"/>
+</AnchorPane>
